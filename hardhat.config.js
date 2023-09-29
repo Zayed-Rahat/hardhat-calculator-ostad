@@ -1,3 +1,4 @@
+require("@nomiclabs/hardhat-truffle4");
 require("@nomicfoundation/hardhat-toolbox");
 require('dotenv').config();
 
@@ -5,13 +6,6 @@ require('dotenv').config();
 // in its dashboard, and replace "KEY" with it
 //const INFURA_API_KEY = "KEY";
 const INFURA_API_KEY = process.env.INFURA_API_KEY;
-
-// Replace this private key with your Sepolia account private key
-// To export your private key from Coinbase Wallet, go to
-// Settings > Developer Settings > Show private key
-// To export your private key from Metamask, open Metamask and
-// go to Account Details > Export Private Key
-// Beware: NEVER put real Ether into testing accounts
 
 //const PRIVATE_KEY = "YOUR SEPOLIA PRIVATE KEY";
 const PRIVATE_KEY = process.env.PRIVATE_KEY;

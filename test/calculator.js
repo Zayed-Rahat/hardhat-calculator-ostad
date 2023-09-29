@@ -1,4 +1,6 @@
+const { artifacts } = require("hardhat");
 const Calculator = artifacts.require("Calculator");
+
 
 contract("Calculator", (accounts) => {
   let calculatorInstance;
